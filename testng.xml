@@ -8,6 +8,7 @@
    <package name="scripts"/>
    </packages>
   </test>
+<!--
   <test  name="TestMFF">
   <parameter name="xlfile" value="input_stg1.xlsx"/>
   <parameter name="useGrid" value="no"/>
@@ -17,4 +18,5 @@
    <package name="scripts"/>
    </packages>
   </test>
+-->
 </suite>
