@@ -19,8 +19,9 @@ public class ValidLogin extends BaseTest {
 //	    3. click on login button
 		loginPage.clickLoginButton();
 //	    4. Verify that Home Page is Displayed
-		ETTPage ettPage=new ETTPage(driver);
-		boolean result = ettPage.verifyWelcomeIsDisplayed(wait);
+		//ETTPage ettPage=new ETTPage(driver);
+		//boolean result = ettPage.verifyWelcomeIsDisplayed(wait);
+		boolean result = false;
 		Assert.assertTrue(result,"Home Page is not displayed");
 	}
 
